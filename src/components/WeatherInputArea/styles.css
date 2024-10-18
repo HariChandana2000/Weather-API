@@ -3,7 +3,6 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   background-image: url("../../assets/background-img.jpeg");
   background-repeat: no-repeat;
@@ -17,6 +16,7 @@
 .weather-input h2 {
   font-size: 25px;
   font-weight: 700;
+  margin-top: 100px;
 }
 
 .horizontal-bar {
