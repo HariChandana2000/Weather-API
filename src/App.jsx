@@ -1,7 +1,8 @@
 import "./App.css";
+import WeatherInputArea from "./components/WeatherInputArea/WeatherInputArea";
 
 function App() {
-  return <h1>Weather API</h1>;
+  return <WeatherInputArea />;
 }
 
 export default App;
