@@ -1,0 +1,72 @@
+.display-weather-container {
+  width: 40%;
+  height: 100%;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.today-date {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.today-date h2 {
+  margin: 0;
+}
+
+.today-date p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.weather-card {
+  width: 80%;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 2px rgb(199, 198, 198);
+}
+
+.weather-card .details {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.weather-card .clouds {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.weather-card .humidity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.humidity p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.clouds p {
+  margin: 0;
+}
+
+.date-section p {
+  margin: 0;
+  font-size: 12px;
+  color: gray;
+}

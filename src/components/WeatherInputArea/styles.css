@@ -4,12 +4,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
   background-image: url("../../assets/background-img.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: white;
+  gap: 150px;
   letter-spacing: 1px;
   border-radius: 10px;
 }
@@ -17,7 +17,7 @@
 .weather-input h2 {
   font-size: 25px;
   font-weight: 700;
-  margin-top: 100px;
+  margin-top: 90px;
 }
 
 .horizontal-bar {
@@ -80,4 +80,26 @@ input:focus-visible {
 .user-location h2 {
   margin: 0;
   font-size: 30px;
+}
+
+input[type="date"] {
+  background-image: none;
+  width: 150px;
+}
+
+.date-picker {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.sub-date-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
