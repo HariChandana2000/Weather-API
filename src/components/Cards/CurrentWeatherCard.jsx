@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../DisplayWeatherArea/styles.css";
 
 const CurrentWeatherCard = ({ userLocationWeather }) => {

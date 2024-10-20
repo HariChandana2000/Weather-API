@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import "./styles.css";
 
 const API_KEY = process.env.API_KEY;

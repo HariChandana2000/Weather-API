@@ -13,8 +13,6 @@ const DisplayWeatherArea = ({
   const [userLocationWeather, setUserLocationWeather] = useState({});
   const [currentLocationForecast, setCurrentLocationForecast] = useState({});
 
-  console.log(forecastLocationDetails);
-
   useEffect(() => {
     const getCurrentWeatherData = () => {
       if (navigator.geolocation) {
@@ -56,6 +54,7 @@ const DisplayWeatherArea = ({
     <div className='display-weather-container'>
       <div className='today-date'>
         <h2>Today</h2>
+
         <p>{new Date().toLocaleTimeString()}</p>
       </div>
       {Object.keys(locationWeatherDetails).length !== 0 &&
