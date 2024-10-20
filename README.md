@@ -64,7 +64,9 @@ Bootstrap - A front-end framework for developing responsive and mobile-first web
 
 ## Setting API KEYS
 
-Create .env file in the root folder of the project and these lines. API_KEY - for openweather api
+1. Create .env file in the root folder of the project and these lines. API_KEY - for openweather api
+2. add the .env path to .gitignore file upon once initiating the git repo in the local system.
+
 
 ```sh
 API_KEY="xxxxxxxxxxxxxxxxxx"
