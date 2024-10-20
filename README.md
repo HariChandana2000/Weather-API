@@ -57,10 +57,10 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ## Built With
 
-React - A JavaScript library for building user interfaces.
-OpenWeather API - A service that provides weather data. (https://openweathermap.org/api)
-Weather API - For fetching historic data (https://www.weatherapi.com/)
-Bootstrap - A front-end framework for developing responsive and mobile-first websites.
+1. React - A JavaScript library for building user interfaces.
+2. OpenWeather API - A service that provides weather data. (https://openweathermap.org/api)
+3. Weather API - For fetching historic data (https://www.weatherapi.com/)
+4. Bootstrap - A front-end framework for developing responsive and mobile-first websites.
 
 ## Setting API KEYS
 
