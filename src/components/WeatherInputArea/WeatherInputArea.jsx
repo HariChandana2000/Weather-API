@@ -58,16 +58,6 @@ const WeatherInputArea = ({
           Search
         </button>
       </div>
-      {/* <div className='date-picker'>
-        <div className='sub-date-input'>
-          <label htmlFor='from'>From:</label>
-          <input type='date' name='from' id='from' placeholder='From' />
-        </div>
-        <div className='sub-date-input'>
-          <label htmlFor='to'>To:</label>
-          <input type='date' name='to' id='to' placeholder='To' />
-        </div>
-      </div> */}
     </div>
   );
 };

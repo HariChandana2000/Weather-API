@@ -6,8 +6,8 @@ const WeatherForecast = ({ currentLocationForecast }) => {
     <>
       <h4 className='heading'>Next days</h4>
       <div className='forecast-section'>
-        {currentLocationForecast.list.map((item) => (
-          <div className='forecast-card'>
+        {currentLocationForecast.list.map((item, index) => (
+          <div className='forecast-card' key={`forecast-${index}`}>
             <h5>{item.main.temp}&deg;C</h5>
             <div className='sky-details'>
               <p>{item.weather[0].description}</p>
