@@ -36,7 +36,9 @@ const HistoricData = () => {
             ref={locationRef}
             required
           />
-          <button onClick={handleHistoricData}>Search</button>
+          <button onClick={handleHistoricData} className='historic-btn'>
+            Search
+          </button>
         </div>
       </div>
       {Object.keys(historicData).length !== 0 && !historicData.error ? (
