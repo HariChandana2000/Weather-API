@@ -18,20 +18,6 @@ const WeatherForecast = ({ currentLocationForecast }) => {
             </div>
             <p className='date'>{item.dt_txt.split(" ")[0]}</p>
           </div>
-          // <Card>
-          //   <Card.Body>
-          //     <Card.Title>{item.main.temp}&deg;C</Card.Title>
-          //     <Card.Text>
-          //       <span style={{ width: "20%", display: "flex", flexWrap: "wrap" }}>
-          //         {item.weather[0].description}
-          //       </span>
-          //       <img
-          //         src={`http://openweathermap.org/img/w/${item.weather[0].icon}.png`}
-          //         alt='clouds'
-          //       />
-          //     </Card.Text>
-          //   </Card.Body>
-          // </Card>
         ))}
       </div>
     </>

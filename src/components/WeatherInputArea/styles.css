@@ -103,3 +103,20 @@ input[type="date"] {
   justify-content: center;
   gap: 1rem;
 }
+
+.search-btn {
+  font-size: 14px;
+  margin: 0;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease;
+}
+
+.search-btn:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}

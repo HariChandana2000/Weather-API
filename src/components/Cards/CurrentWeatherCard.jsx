@@ -20,7 +20,7 @@ const CurrentWeatherCard = ({ userLocationWeather }) => {
         </div>
       </div>
       <div className='date-section'>
-        <p>{new Date().toDateString()}</p>
+        <p>{new Date(userLocationWeather.dt * 1000).toDateString()}</p>
       </div>
     </div>
   );
